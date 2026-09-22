@@ -1,7 +1,7 @@
 {
   "name": "autocomplete-xml",
   "main": "./lib/main",
-  "version": "0.11.0",
+  "version": "0.11.1",
   "description": "Autocomplete+ provider for XML via XSD",
   "keywords": [
     "xml",
@@ -9,7 +9,7 @@
     "autocomplete"
   ],
   "activationCommands": {},
-  "repository": "https://github.com/pleonex/atom-autocomplete-xml",
+  "repository": "https://github.com/atomeditor-io/atom-autocomplete-xml",
   "license": "MIT",
   "engines": {
     "atom": ">=1.0.0 <2.0.0"

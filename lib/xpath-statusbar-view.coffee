@@ -99,6 +99,6 @@ class XPathStatusBarView extends HTMLDivElement
 
 ## Register the class into the document to be available.
 module.exports =
-  document.registerElement(
+  (require './custom-element').define(
     'xpath-statusbar',
-    prototype: XPathStatusBarView.prototype)
+    XPathStatusBarView.prototype)
